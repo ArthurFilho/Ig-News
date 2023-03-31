@@ -14,7 +14,7 @@ export function SignInButton() {
       className={styles.signInButton}
     >
       <FaGithub color="#04d361" />
-      Gersu
+      Arthur Filho
       <FiX color="#737380" className={styles.closeIcon} />
     </button>
   ) : (
