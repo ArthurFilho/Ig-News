@@ -6,6 +6,7 @@ import { stripe } from "../services/stripe";
 
 import styles from "./home.module.scss";
 
+
 interface HomeProps {
   product: {
     priceId: string;
@@ -24,7 +25,7 @@ export default function Home({ product }: HomeProps) {
         <section className={styles.hero}>
           <span>
             <img
-              src="/images/react.gif"
+              src="/favicon.png"
               alt="React Logo Animated"
               height={32}
               width={32}
